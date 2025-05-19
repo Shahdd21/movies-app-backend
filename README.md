@@ -40,7 +40,16 @@ A movie application that used OMDB API to fetch movies and saves from it in the 
 # Tech Stack
 - Backend: Java, Spring Boot, Spring Security, JWT
 - Database: MySQL
+- Frontend: Angular
+- Security: Password hashing, role-based access control
 
 # Testing
 - unit tests using Junit and Mockito
 - API testing using Postman
+
+
+# How to run
+- The frontend runs at localhost:4200
+- the backend runs at localhost:8080
+- the frontend has functionalities for login and movies navigation
+- all endpoints are available via Postman
