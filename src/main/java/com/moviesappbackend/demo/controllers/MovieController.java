@@ -44,7 +44,7 @@ public class MovieController {
     }
 
     @PostMapping("/search")
-    public List<Movie> searchForMovies(@RequestParam String keyword){
+    public List<Movie> searchForMovies(@RequestBody String keyword){
 
         return movieService.getMoviesByKeyword(keyword);
     }
